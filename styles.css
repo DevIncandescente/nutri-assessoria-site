@@ -43,3 +43,4 @@
 .whatsapp-float:before{content:'';position:absolute;inset:0;border-radius:50%;background:#25d366;z-index:-1;animation:whatsapp-pulse 2.4s ease-out infinite}
 @keyframes whatsapp-pulse{from{transform:scale(1);opacity:.55}to{transform:scale(1.55);opacity:0}}
 @media(prefers-reduced-motion:reduce){.whatsapp-float:before{animation:none}.whatsapp-float,.whatsapp-float:hover{transition:none;transform:none}}
+.footer-seal{width:calc(160px * var(--scale));height:auto;margin:calc(32px * var(--scale)) auto 0;filter:drop-shadow(0 calc(6px * var(--scale)) calc(14px * var(--scale)) #0003)}@media(max-width:900px){.footer-seal{width:120px;margin-top:24px}}
