@@ -26,8 +26,8 @@ const testimonialCaption=testimonialFigure.querySelector('figcaption');
 const testimonialDots=[...document.querySelectorAll('.testimonial-dot')];
 const testimonialSlides=[
   {quote:testimonialQuote.textContent,author:'Nerciane Perin',context:'Restaurante Rancho do Cupim – Sorocaba/SP'},
-  {quote:'Com orientações claras e uma rotina mais organizada, nossa equipe passou a entender melhor os cuidados necessários em cada etapa do trabalho.',author:'Depoimento ilustrativo',context:'Restaurante'},
-  {quote:'O acompanhamento ajudou a transformar exigências sanitárias em práticas que conseguimos aplicar todos os dias, com mais segurança e tranquilidade.',author:'Depoimento ilustrativo',context:'Serviço de alimentação'}
+  {quote:'Ter o acompanhamento da Nutri Assessoria fez muita diferença para nós. Sempre que precisamos, temos orientação e suporte. É um trabalho próximo, que ajuda de verdade na organização e na rotina do restaurante.',author:'Jô',context:'Churrascaria São Judas'},
+  {quote:'A Nutri Assessoria está sempre presente e nos ajudando no dia a dia. As orientações e os treinamentos são práticos, a equipe é muito atenciosa e hoje nos sentimos muito mais seguros e organizados com todos os processos.',author:'Fernanda Perin',context:'Churrascaria Anchieta Grill'}
 ];
 let testimonialIndex=0;
 let testimonialPaused=false;
